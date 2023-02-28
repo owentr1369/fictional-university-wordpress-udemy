@@ -41,7 +41,7 @@ function university_posts_types()
     // Professor post type
     register_post_type('professor', array(
         'supports' => array(
-            'title', 'editor',
+            'title', 'editor', 'thumbnail'
         ),
         'public' => true,
         'labels' => array(
